@@ -1,3 +1,16 @@
+# About MoviwsApp2.0 Project
+
+Recently i created Netflix Clone and idea got into my mind to mix Netflix With Youtube and its Horrible Experience i run into prop drilling and Ui crashes so many time it sucks , so then i redesign my Idea by creating simple project with Improved UI then my provious Netflix Clone and then pushing updates to it .
+Also this is first time i have used Grid Layout so Making Initial Layout is Quite Difficult for me but ya during this process i learned a lot you will see lots of commented styles in my Css ...
+
+# Whats better then Netflix Clone
+
+-> Ui is fully improved .. PS DONT compare with Actual Netflix :).
+-> Header crop / Hero img fix . Its issue i faced in previous Netflix Clone.
+-> Functionality will be added Slowly :) .
+
+# Version Info: V0.01 - Netflix 2.0 - dt 25.05.2022
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
