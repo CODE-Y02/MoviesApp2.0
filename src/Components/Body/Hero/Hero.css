@@ -1,0 +1,50 @@
+.hero {
+  position: relative;
+  max-width: calc(100%-84px);
+  /* padding: 2rem; */
+  background-color: #878498;
+  color: white;
+}
+.hero-img {
+  object-fit: contain;
+  width: 100%;
+}
+.hero-text-wrap {
+  position: absolute;
+  left: 2rem;
+  bottom: 20%;
+  font-size: 2rem;
+  z-index: 20;
+}
+.hero-text-wrap > * {
+  margin-top: 10px;
+}
+.hero-text-wrap > p {
+  font-weight: 100;
+  color: rgb(172, 172, 172);
+}
+.hero-btn-wrap > button {
+  border: none;
+  border-radius: 2rem;
+  padding: 0.5rem 2rem;
+  width: 100%;
+  max-width: fit-content;
+
+  font-size: 1rem;
+  color: red;
+  font-weight: 800;
+}
+.hero_gradient {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.548039198589592) 66%
+  );
+}
