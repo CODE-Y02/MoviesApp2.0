@@ -23,7 +23,7 @@ function Hero({ fetchUrl }) {
   }, []);
 
   return (
-    movie && (
+    movie.backdrop_path && (
       <>
         <div className="hero">
           <img

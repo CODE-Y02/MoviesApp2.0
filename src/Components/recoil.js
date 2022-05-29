@@ -1,6 +1,14 @@
-import { atom, selector } from "recoil";
+import {
+  // RecoilRoot,
+  atom,
+  // selector,
+  // useRecoilState,
+  // useRecoilValue,
+} from "recoil";
 
-export const movieState = atom({
-  key: "movieList", //unique key
-  default: [], // default value or initial state
+const movieState = atom({
+  key: "movieState", // unique ID (with respect to other atoms/selectors)
+  default: {}, // default value (aka initial value)
 });
+
+export default movieState;

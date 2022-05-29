@@ -20,19 +20,21 @@ function Footer(fetchUrl) {
   }, []);
 
   return (
-    <div
-      className="footer"
-      style={{
-        backgroundImage: `url(
+    movie.backdrop_path && (
+      <div
+        className="footer"
+        style={{
+          backgroundImage: `url(
        ${Img_base_url + movie?.backdrop_path})
       `,
-      }}
-    >
-      <h2>gooter </h2>
-      {/* text */}
+        }}
+      >
+        <h2>gooter </h2>
+        {/* text */}
 
-      {/* subscribe */}
-    </div>
+        {/* subscribe */}
+      </div>
+    )
   );
 }
 

@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+// import React, { useEffect, useState } from "react";
 import "./Body.css";
-import axios from "../../axios";
+// import axios from "../../axios";
 import Hero from "./Hero/Hero";
 import movieRequests from "../../movieRequest";
 import Footer from "./Footer/Footer";
@@ -13,7 +13,7 @@ import Video from "./Video/Video";
  *
  */
 
-const Img_base_url = "https://image.tmdb.org/t/p/original";
+// const Img_base_url = "https://image.tmdb.org/t/p/original";
 
 function Body() {
   // console.log(movieRequests.fetchTopRatedTV); --> fetching url

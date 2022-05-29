@@ -15,9 +15,11 @@
   bottom: 20%;
   font-size: 2rem;
   z-index: 20;
+  background-color: transparent;
 }
 .hero-text-wrap > * {
   margin-top: 10px;
+  background-color: transparent;
 }
 .hero-text-wrap > p {
   font-weight: 100;
@@ -29,10 +31,16 @@
   padding: 0.5rem 2rem;
   width: 100%;
   max-width: fit-content;
-
+  border: 2px solid #f7f4f43f;
   font-size: 1rem;
   color: red;
   font-weight: 800;
+}
+.hero-btn-wrap:hover > button {
+  color: black;
+  background-color: red;
+  transform: scale(1.08);
+  cursor: pointer;
 }
 .hero_gradient {
   position: absolute;
