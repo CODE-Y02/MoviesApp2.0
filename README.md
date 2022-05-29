@@ -11,6 +11,15 @@ Also this is first time i have used Grid Layout so Making Initial Layout is Quit
 
 # Version Info: V0.01 - Netflix 2.0 - dt 25.05.2022
 
+--uploaded version v1 (29/5/22)
+--features & bugs
+--> Movie details Page ( react recoil & react router v6 used)
+--> bugs -> Receiving unique Key error , i already tried my hands if any one have idea whats wrong in code please help me improve it ..
+
+# Deployed URLS
+
+--> [V1](https://movie-v01.netlify.app/) --> only for lagre and mid screen not well optimized for mobile devices
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
